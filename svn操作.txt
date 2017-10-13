@@ -1,0 +1,5 @@
+svnserve -d -r D:\yzsvn
+sc create svnservice2 binpath= "d:svn\bin\svnserve.exe ®Cservice -r D:\—‡’‘≤∆œ’"
+sc create svn binpath= "d:svn\bin\svnserve.exe --service -r D:\yzsvn" displayname= "Subversion Server" depend= tcpip start= auto
+
+sc delete svn

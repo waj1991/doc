@@ -1,0 +1,4 @@
+//生成插入sql
+=CONCATENATE("insert into supplier_parts_list (oe,com_order,costPrice,price,modelCode) values ('",A2,"','",B2,"',",D2,",",C2,",'",E2,"');")
+
+=CONCATENATE("insert into supplier_parts_list (oe,com_order,price,parrs_type,user_id,create_time,update_time) values ('",A2,"','",B2,"',",F2,",'原厂件',2,NOW(),NOW());")
